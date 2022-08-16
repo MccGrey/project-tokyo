@@ -221,3 +221,101 @@ nav ul li a:hover {
     margin-left: 4.5rem;
     color: #4e3413;
 }
+
+.down {
+    width: 90%;
+    margin: auto;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.down h2 {
+    font-size: 3rem;
+    color: #4e3413;
+}
+
+.down .search-box {
+    width: 500px;
+    height: 60px;
+    margin-top: 2rem;
+    position: relative;
+}
+
+.down .search-box .input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 10px 20px;
+    border-radius: 5rem;
+    font-size: 15px;
+}
+
+.down .search-box .btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 15rem;
+    height: 100%;
+    z-index: 1;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.down .input {
+    border: 0;
+    outline: none;
+    color: #4e3413;
+}
+
+footer {
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    position: relative;
+    background: #4e3413;
+}
+
+.footer1 {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+
+.footer1 .socials {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer1 .socials a {
+    width: 2rem;
+    height: 2rem;
+    aspect-ratio: 1/1;
+    background: #4d5735;
+    border-radius: 0.5rem;
+    color: #dbd8d3;
+    display: grid;
+    place-items: center;
+    transition: all 400ms ease;
+}
+
+.footer1 .socials a:hover {
+    background: #a3622c;
+}
+
+.footer1 ul li a {
+    color: #dbd8d3;
+    transition: all 400ms ease;
+}
+
+.footer1 ul li a:hover {
+    color: #a3622c;
+}

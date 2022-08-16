@@ -4,23 +4,22 @@
 }
 
 .footer-page{
-    background-color: black;
+    background-color: #4e3413;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 80px;
-    height: 180px;
-    margin-top: 500px;
+    padding: 70px;
+    height: 290px;
+    margin-top: 200px;
     margin-bottom: 0;
 }
 .left-footer{
     width: 50%;
-    height: 180px;
-    padding: 80px;
+    padding: 10px;
     justify-content: space-between;
     align-items: center;
-   
+    margin-right: 80px;
 }
 .left-footer > h2{
     height: 20px;
@@ -31,19 +30,37 @@
 .left-footer > p{
     border-top: 50px;
 }
+.left-footer button{
+    height: 35px;
+    width: 80px;
+    border-radius: 10px;
+    background: #4e3413;
+    color: white;
+}
+.right-footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
 .right-footer{
     display: block;
-    width:50%;
-    padding: 70px;
+    width:30%;
 }
 .right-footer-top{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.right-footer-top > img{
-    height: 10%;
-    width: 25%;
+.hp{
+    display: flex;
+    align-items: center;
+}
+.hp img {
+    height: 20px;
+    width: 30px;
+}
+.hp-name{
+    display: block;
 }
 .Msoft{
     display: flex;
@@ -57,7 +74,19 @@
     justify-content: space-between;
     align-items: center;
 }
-.right-footer-bottom img{
-    height: 10%;
-    width: 25%;
+.Nvi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Nvi img{
+    height: 20px;
+    width: 20px; 
+}
+.Nvi h3{
+    display: flex;
+}
+.dia {
+    font-size: 30px;
+}
 }*/

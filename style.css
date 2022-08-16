@@ -145,7 +145,7 @@ nav ul li a:hover {
 
 /*====================ABOUT US (Emmanuel Obiora Section)===================*/
 .footer-page{
-    background-color: black;
+    background-color: #4e3413;
     color: white;
     display: flex;
     justify-content: center;
@@ -155,22 +155,12 @@ nav ul li a:hover {
     margin-top: 200px;
     margin-bottom: 0;
 }
-/*.left-footer{
-    height: 100vh;*/
-   /* background: linear-gradient(
-        to right, 
-        grey 0%,
-        grey 60%,
-        black 60%,
-        black 100%
-    );
-    border-radius: 0 0 50% 50%/0 0 50% 50%;
-}*/
 .left-footer{
     width: 50%;
-    padding: 80px;
+    padding: 10px;
     justify-content: space-between;
     align-items: center;
+    margin-right: 80px;
 }
 .left-footer > h2{
     height: 20px;
@@ -185,7 +175,7 @@ nav ul li a:hover {
     height: 35px;
     width: 80px;
     border-radius: 10px;
-    background: black;
+    background: #4e3413;
     color: white;
 }
 .right-footer{
@@ -201,10 +191,6 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.right-footer-top > img{
-    height: 10%;
-    width: 25%;
 }
 .hp{
     display: flex;
@@ -229,10 +215,6 @@ nav ul li a:hover {
     justify-content: space-between;
     align-items: center;
 }
-.right-footer-bottom img{
-    height: 10%;
-    width: 25%;
-}
 .Nvi{
     display: flex;
     align-items: center;
@@ -246,7 +228,7 @@ nav ul li a:hover {
     display: flex;
 }
 .dia {
-    font-size: 35px;
+    font-size: 30px;
 }
 
 
